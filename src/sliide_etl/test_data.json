@@ -1,0 +1,233 @@
+{
+  "event_date": "20191231",
+  "event_timestamp": "1577800978848011",
+  "event_name": "user_engagement",
+  "event_params": [
+    {
+      "key": "firebase_event_origin",
+      "value": {
+        "string_value": "auto"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "2"
+      }
+    },
+    {
+      "key": "engagement_time_msec",
+      "value": {
+        "int_value": "126943"
+      }
+    },
+    {
+      "key": "firebase_screen_id",
+      "value": {
+        "int_value": "-6971168108738197529"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577800851"
+      }
+    },
+    {
+      "key": "firebase_screen_class",
+      "value": {
+        "string_value": "WebViewActivity"
+      }
+    },
+    {
+      "key": "engaged_session_event",
+      "value": {
+        "int_value": "1"
+      }
+    }
+  ],
+  "event_server_timestamp_offset": "880643",
+  "user_pseudo_id": "2d4b1abaf86fab3d7a836f6dfdffc3e7",
+  "user_properties": [
+    {
+      "key": "firebase_exp_9",
+      "value": {
+        "string_value": "0",
+        "set_timestamp_micros": "1577690077388000"
+      }
+    },
+    {
+      "key": "subscribed_67",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321194000"
+      }
+    },
+    {
+      "key": "notification_66",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321191000"
+      }
+    },
+    {
+      "key": "testUserGroup",
+      "value": {
+        "string_value": "4",
+        "set_timestamp_micros": "1577677321195000"
+      }
+    },
+    {
+      "key": "notification_69",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321192000"
+      }
+    },
+    {
+      "key": "first_install_millis",
+      "value": {
+        "string_value": "1230739200000",
+        "set_timestamp_micros": "1577800844860000"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "2",
+        "set_timestamp_micros": "1577800851902000"
+      }
+    },
+    {
+      "key": "subscribed_69",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321192000"
+      }
+    },
+    {
+      "key": "user_id",
+      "value": {
+        "string_value": "4ea5cfbbc0bf9865",
+        "set_timestamp_micros": "1577800844855000"
+      }
+    },
+    {
+      "key": "notifications_enabled",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577800844857000"
+      }
+    },
+    {
+      "key": "subscribed_71",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321186000"
+      }
+    },
+    {
+      "key": "subscribed_66",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321191000"
+      }
+    },
+    {
+      "key": "notification_71",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321185000"
+      }
+    },
+    {
+      "key": "config_hash",
+      "value": {
+        "string_value": "9ce0074f0bb816db9630cbb844b4a8e1",
+        "set_timestamp_micros": "1577779396467000"
+      }
+    },
+    {
+      "key": "subscribed_72",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321184000"
+      }
+    },
+    {
+      "key": "notification_68",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321187000"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577800851",
+        "set_timestamp_micros": "1577800851902000"
+      }
+    },
+    {
+      "key": "subscribed_70",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321193000"
+      }
+    },
+    {
+      "key": "notification_67",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321194000"
+      }
+    },
+    {
+      "key": "first_open_time",
+      "value": {
+        "int_value": "3600000",
+        "set_timestamp_micros": "1747678000"
+      }
+    },
+    {
+      "key": "last_update_time",
+      "value": {
+        "string_value": "1577690042915",
+        "set_timestamp_micros": "1577800844862000"
+      }
+    },
+    {
+      "key": "session_uuid",
+      "value": {
+        "string_value": "1ed0efc9-6d52-4437-b6bd-21e1678c401f",
+        "set_timestamp_micros": "1577800844857000"
+      }
+    },
+    {
+      "key": "notification_72",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321182000"
+      }
+    },
+    {
+      "key": "notification_70",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321193000"
+      }
+    },
+    {
+      "key": "subscribed_68",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577677321190000"
+      }
+    }
+  ],
+  "user_first_touch_timestamp": "1747678000",
+  "mobile_os_hardware_model": "U683CL",
+  "language": "en-us",
+  "time_zone_offset_seconds": "-28800",
+  "version": "11.3.1"
+}
