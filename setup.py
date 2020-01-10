@@ -8,9 +8,9 @@ setuptools.setup(
     },
     name="sliide_etl",
     package_dir={
-        "": "src"
+        "sliide_etl": ""
     },
-    packages=setuptools.find_namespace_packages(where="src"),
+    packages=setuptools.find_packages(),
     install_requires=[
         "pandas"
     ],

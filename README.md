@@ -4,6 +4,9 @@ by Thomas Korrison
 
 ## Getting Started
 
+I've assumed a MySQL database just for demonstration purposes and have set credentials 
+as environmental variables.
+
 `git clone https://github.com/TKorr/sliide_test_2019.git`
 
 `cd sliide_test_2019/`
