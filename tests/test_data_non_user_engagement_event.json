@@ -1,0 +1,240 @@
+{
+  "event_date": "20191230",
+  "event_timestamp": "1577734251739001",
+  "event_name": "push_received",
+  "event_params": [
+    {
+      "key": "campaign_id",
+      "value": {
+        "string_value": "sponsored.morning"
+      }
+    },
+    {
+      "key": "id",
+      "value": {
+        "string_value": "53e96c23-7647-4575-b878-11c06abf7ce9"
+      }
+    },
+    {
+      "key": "firebase_event_origin",
+      "value": {
+        "string_value": "app"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "7"
+      }
+    },
+    {
+      "key": "layout_type",
+      "value": {
+        "string_value": "predictions"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577561406"
+      }
+    },
+    {
+      "key": "content_type",
+      "value": {
+        "string_value": "source=taboola;placement=Sponsored Morning Push"
+      }
+    }
+  ],
+  "event_server_timestamp_offset": "1849072",
+  "user_pseudo_id": "e7cea7fe7ba02aa84658ccb23eefa54d",
+  "user_properties": [
+    {
+      "key": "config_hash",
+      "value": {
+        "string_value": "76ab320d4ec2f0572908c334b5e5bb4c",
+        "set_timestamp_micros": "1577734249769000"
+      }
+    },
+    {
+      "key": "subscribed_72",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420797000"
+      }
+    },
+    {
+      "key": "notification_68",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420800000"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577561406",
+        "set_timestamp_micros": "1577561406516000"
+      }
+    },
+    {
+      "key": "subscribed_70",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420804000"
+      }
+    },
+    {
+      "key": "notification_67",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420805000"
+      }
+    },
+    {
+      "key": "first_open_time",
+      "value": {
+        "int_value": "1562792400000",
+        "set_timestamp_micros": "1562789213550000"
+      }
+    },
+    {
+      "key": "last_update_time",
+      "value": {
+        "string_value": "1574967892506",
+        "set_timestamp_micros": "1577734245716000"
+      }
+    },
+    {
+      "key": "session_uuid",
+      "value": {
+        "string_value": "865264d6-1300-4d26-bc2b-8000c9ab5488",
+        "set_timestamp_micros": "1577734245713000"
+      }
+    },
+    {
+      "key": "notification_72",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420795000"
+      }
+    },
+    {
+      "key": "notification_70",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420804000"
+      }
+    },
+    {
+      "key": "subscribed_68",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420800000"
+      }
+    },
+    {
+      "key": "firebase_exp_9",
+      "value": {
+        "string_value": "0",
+        "set_timestamp_micros": "1572605592658000"
+      }
+    },
+    {
+      "key": "subscribed_67",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420806000"
+      }
+    },
+    {
+      "key": "notification_66",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420801000"
+      }
+    },
+    {
+      "key": "testUserGroup",
+      "value": {
+        "string_value": "8",
+        "set_timestamp_micros": "1572561420807000"
+      }
+    },
+    {
+      "key": "notification_69",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420802000"
+      }
+    },
+    {
+      "key": "first_install_millis",
+      "value": {
+        "string_value": "1230739200000",
+        "set_timestamp_micros": "1577734245715000"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "7",
+        "set_timestamp_micros": "1577561406516000"
+      }
+    },
+    {
+      "key": "subscribed_69",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420803000"
+      }
+    },
+    {
+      "key": "user_id",
+      "value": {
+        "string_value": "39b0c47add64c2a2",
+        "set_timestamp_micros": "1577734245711000"
+      }
+    },
+    {
+      "key": "notifications_enabled",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577734245713000"
+      }
+    },
+    {
+      "key": "subscribed_71",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420799000"
+      }
+    },
+    {
+      "key": "device_model",
+      "value": {
+        "string_value": "U683CL",
+        "set_timestamp_micros": "1574475023338000"
+      }
+    },
+    {
+      "key": "subscribed_66",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420802000"
+      }
+    },
+    {
+      "key": "notification_71",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1572561420798000"
+      }
+    }
+  ],
+  "user_first_touch_timestamp": "1562789213550000",
+  "mobile_os_hardware_model": "U683CL",
+  "language": "es-do",
+  "time_zone_offset_seconds": "-18000",
+  "version": "11.3.1"
+}

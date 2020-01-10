@@ -1,69 +1,62 @@
 #!/usr/bin/env python3
 import argparse
 import json
-
-import pandas as pd
+import types
 
 import src.sliide_etl.utils.logger as logger
 
 LOGGER = logger.set_logger()
-DATA_FILE_PATH = "bq-results-sample-data.json"
-TEST_DATA_FILE_PATH = "test_data.json"
 
 
-def print_hello_ea(arg):
+def read_json_data(fp: str) -> types.GeneratorType:
     """
-    Function to print "Hello, EA! - " + input string
+
+    :param fp:
     :return:
     """
-    return_statement = "Hello, EA! - {}".format(arg)
-    return return_statement
+    with open(fp) as f:
+        for line in f:
+            yield json.loads(line)
 
 
-def read_json_data():
-    json_data = pd.read_json(DATA_FILE_PATH, )
-    pass
-
-
-def parse_arguments():
+def parse_arguments() -> argparse.Namespace:
     """
     Parser for command-line options, arguments and sub-commands
     Returns:
         parser.parse_args()
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument("input_statement", type=str, help="Say something!")
+    parser.add_argument("input_file", type=str, help="Input file path to data")
     return parser.parse_args()
 
 
-def main():
+def count_user_engagement(json_obj: types.GeneratorType) -> int:
     """
-    Main function starts running the script, configures logging and executes script
+
     Returns:
-      None
+      Int count
     """
-    # arguments = parse_arguments()
-    # json_data = pd.read_json(TEST_DATA_FILE_PATH)
-    # read file
-    with open(TEST_DATA_FILE_PATH, 'r') as myfile:
-        data = myfile.read()
 
-    # parse file
-    obj = json.loads(data)
     count = 0
+    for event in json_obj:
+        if event['event_name'] == 'user_engagement':
+            for event_param in event['event_params']:
+                key = event_param['key']
+                if key == 'engagement_time_msec' and int(event_param['value']['int_value']) >= 3000:
+                    for event_param2 in event['event_params']:
+                        key = event_param2['key']
+                        if key == 'engaged_session_event' and int(event_param['value']['int_value']) >= 1:
+                            count += 1
+    return count
 
-    if obj['event_name'] == 'user_engagement':
-        for event_param in obj['event_params']:
-            key = event_param['key']
-            if key == 'engagement_time_msec' and int(event_param['value']['int_value']) >= 3000:
-                for event_param2 in obj['event_params']:
-                    key = event_param2['key']
-                    if key == 'engaged_session_event' and int(event_param['value']['int_value']) >= 1:
-                        count += 1
-    print(count)
-    # print(obj)
+
+def main() -> None:
+    LOGGER.info("Start")
+    arguments = parse_arguments()
+    event_gen = read_json_data(arguments.input_file)
+    result = count_user_engagement(event_gen)
+    print(result)
 
 
 if __name__ == "__main__":  # pragma: no cover
-    LOGGER.info("---")
     main()

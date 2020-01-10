@@ -1,0 +1,142 @@
+{
+  "event_date": "20191231",
+  "event_timestamp": "1577830553089000",
+  "event_name": "user_engagement",
+  "event_params": [
+    {
+      "key": "firebase_event_origin",
+      "value": {
+        "string_value": "auto"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "6"
+      }
+    },
+    {
+      "key": "engagement_time_msec",
+      "value": {
+        "int_value": "3809"
+      }
+    },
+    {
+      "key": "firebase_screen_id",
+      "value": {
+        "int_value": "2957983845243044005"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577830544"
+      }
+    },
+    {
+      "key": "firebase_screen_class",
+      "value": {
+        "string_value": "SplashActivity"
+      }
+    },
+    {
+      "key": "engaged_session_event",
+      "value": {
+        "int_value": "1"
+      }
+    }
+  ],
+  "event_server_timestamp_offset": "613168",
+  "user_pseudo_id": "edd1ce40e92bd5ea75b0e273adbc16f2",
+  "user_properties": [
+    {
+      "key": "user_id",
+      "value": {
+        "string_value": "314da06fd7a079fc",
+        "set_timestamp_micros": "1577830546014000"
+      }
+    },
+    {
+      "key": "notifications_enabled",
+      "value": {
+        "string_value": "true",
+        "set_timestamp_micros": "1577830546020000"
+      }
+    },
+    {
+      "key": "device_model",
+      "value": {
+        "string_value": "U683CL",
+        "set_timestamp_micros": "1574480525923000"
+      }
+    },
+    {
+      "key": "firebase_exp_9",
+      "value": {
+        "string_value": "1",
+        "set_timestamp_micros": "1574116375491000"
+      }
+    },
+    {
+      "key": "config_hash",
+      "value": {
+        "string_value": "9ce0074f0bb816db9630cbb844b4a8e1",
+        "set_timestamp_micros": "1577830549707000"
+      }
+    },
+    {
+      "key": "testUserGroup",
+      "value": {
+        "string_value": "1",
+        "set_timestamp_micros": "1574116012874000"
+      }
+    },
+    {
+      "key": "ga_session_id",
+      "value": {
+        "int_value": "1577830544",
+        "set_timestamp_micros": "1577830544131000"
+      }
+    },
+    {
+      "key": "first_open_time",
+      "value": {
+        "int_value": "1574107200000",
+        "set_timestamp_micros": "1574106323616000"
+      }
+    },
+    {
+      "key": "last_update_time",
+      "value": {
+        "string_value": "1577740259394",
+        "set_timestamp_micros": "1577830546024000"
+      }
+    },
+    {
+      "key": "session_uuid",
+      "value": {
+        "string_value": "e9875035-f3cd-4f1a-8061-17cfbf4f7f76",
+        "set_timestamp_micros": "1577830546020000"
+      }
+    },
+    {
+      "key": "first_install_millis",
+      "value": {
+        "string_value": "1230739200000",
+        "set_timestamp_micros": "1577830546023000"
+      }
+    },
+    {
+      "key": "ga_session_number",
+      "value": {
+        "int_value": "6",
+        "set_timestamp_micros": "1577830544131000"
+      }
+    }
+  ],
+  "user_first_touch_timestamp": "1574106323616000",
+  "mobile_os_hardware_model": "U683CL",
+  "language": "en-us",
+  "time_zone_offset_seconds": "-18000",
+  "version": "11.3.1"
+}

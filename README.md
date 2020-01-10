@@ -1,5 +1,6 @@
-# etl_template
-Template for ETL repos
+# Sliide ETL Test 2020
+
+by Thomas Korrison
 
 ## Getting Started
 
@@ -15,9 +16,5 @@ Template for ETL repos
 
 ## Related Links
 
-[Airflow Test Environment](https://qf36bf3a850119ba5-tp.appspot.com/admin/)
-
-[Airflow Prod Environment](https://uc4bdb4a10104bf28-tp.appspot.com/admin/)
-
-[CircleCi Dashboard](https://circleci.com/gh/energyaspects)
+[CircleCi Dashboard](https://circleci.com)
 
