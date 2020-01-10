@@ -4,17 +4,30 @@ by Thomas Korrison
 
 ## Getting Started
 
-* clone repo by clicking on "use this template" from github.
-* clone new repo locally.
-* checkout develop branch.
-* rename all `__name__` placeholder files and folders to something of your choosing.
+`git clone https://github.com/TKorr/sliide_test_2019.git`
 
-## Circleci Setup
+`cd sliide_test_2019/`
 
-* Setup repo in circleci [here](https://circleci.com/docs/2.0/getting-started/#section=getting-started)
-* Add `REPO_NAME` as an environmental variable in circleci with a value of `__name__`
+`python3 setup.py install`
 
-## Related Links
+`run_sliide_etl`
 
-[CircleCi Dashboard](https://circleci.com)
+## Running Tests
 
+`python3 setup.py test`
+
+## Run with Docker
+
+create tarball
+
+`python setup.py sdist`
+
+build image from dockerfile
+
+`docker build . -t sliide_test_image`
+
+run command from container
+
+`docker run sliide_test_image sliide_etl `
+
+## Further Questions
