@@ -2,6 +2,7 @@
 import argparse
 import datetime
 import json
+import os
 import types
 
 import sqlalchemy as sa
@@ -10,12 +11,11 @@ import src.sliide_etl.utils.logger as logger
 
 LOGGER = logger.set_logger()
 
-
 # Credentials for database connection
-# HOST = os.environ("hostname")
-# USER = os.environ("username")
-# PASSWORD = os.environ("password")
-# DATABASE = os.environ("database")
+HOST = os.environ("hostname")
+USER = os.environ("username")
+PASSWORD = os.environ("password")
+DATABASE = os.environ("database")
 
 
 def read_json_data(fp: str) -> types.GeneratorType:
@@ -113,10 +113,10 @@ def main():
     arguments = parse_arguments()
     event_gen = read_json_data(arguments.input_file)
     result = count_user_engagement(event_gen)
-    print(result)
+    # print(result)
 
     # Load data into database
-    # load_data_to_table(result)
+    load_data_to_table(result)
 
 
 if __name__ == "__main__":  # pragma: no cover
